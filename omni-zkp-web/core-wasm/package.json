@@ -1,0 +1,15 @@
+{
+  "name": "omni-zkp-core",
+  "type": "module",
+  "version": "0.3.0",
+  "files": [
+    "omni_zkp_core_bg.wasm",
+    "omni_zkp_core.js",
+    "omni_zkp_core.d.ts"
+  ],
+  "main": "omni_zkp_core.js",
+  "types": "omni_zkp_core.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

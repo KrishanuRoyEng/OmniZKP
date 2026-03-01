@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Force Git to include our pre-compiled Rust WASM enclave
+!core-wasm/
+!core-wasm/**
